@@ -1,0 +1,12 @@
+[package]
+name = "test1"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+studiodesigner = { git = "https://github.com/kurtbuilds/studiodesigner-rs", optional = true }
+
+[features]
+license = ["studiodesigner"]
