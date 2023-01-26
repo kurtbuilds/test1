@@ -9,4 +9,4 @@ edition = "2021"
 studiodesigner = { git = "https://github.com/kurtbuilds/studiodesigner-rs", optional = true }
 
 [features]
-license = ["studiodesigner"]
+commercial = ["studiodesigner"]
